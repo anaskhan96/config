@@ -24,6 +24,10 @@ echo "= = = wget = = ="
 brew install wget
 echo "= = = fish = = ="
 brew install fish
+
+# Setting up fish
+cp dotfiles/config.fish ~/.config/fish/
+
 echo "= = = git = = ="
 brew install git
 
@@ -47,6 +51,10 @@ echo "= = = python3 = = ="
 brew install python3
 echo "= = = neovim = = ="
 brew install neovim
+
+# Setting up neovim
+cp dotfiles/.vimrc ~/
+
 echo "= = = node = = ="
 brew install node
 echo "= = = rust = = ="
@@ -73,7 +81,7 @@ echo "= = = sublime-text = = ="
 brew cask install sublime-text
 
 # Setting up sublime text (hopefully this works)
-mv SublimeText/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+cp SublimeText/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 # Restart Sublime Text and install Package Control first
 
 echo "= = = vlc = = ="
@@ -95,5 +103,4 @@ echo "Stuff left to do :- "
 echo "1. Set iTerm as default terminal"
 echo "2. Change to Dark OS X mode"
 echo "3. Set fish as default shell with vim bindings (optional)"
-echo "4. Open SublimeText, install PackageControl, and see whether everything works correctly"
 echo "DONE"
