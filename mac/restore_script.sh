@@ -91,7 +91,7 @@ brew cask install impactor
 echo "= = = etcher = = ="
 brew cask install etcher
 
-echo "Stuff left to do :-"
+echo "Stuff left to do :- "
 echo "1. Set iTerm as default terminal"
 echo "2. Change to Dark OS X mode"
 echo "3. Set fish as default shell with vim bindings (optional)"
