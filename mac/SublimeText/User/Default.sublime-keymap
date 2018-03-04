@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+alt+t"], "command": "terminal_view_open", "args": {"cmd": "/usr/local/bin/fish -l", "title": "Terminal (Fish)"}}
+]

@@ -1,0 +1,15 @@
+{
+	"caret_style": "solid",
+	"color_scheme": "Packages/DA CS/Material.tmTheme",
+	"font_face": "",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Six",
+		"Vintage",
+		"Vintageous"
+	],
+	"theme": "Adaptive.sublime-theme",
+	"vintageous_start_in_command_mode": true,
+	"vintageous_use_ctrl_keys": true
+}
