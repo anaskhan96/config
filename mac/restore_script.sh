@@ -37,6 +37,8 @@ brew install git
 
 # Setting up global .gitignore"
 echo ".DS_Store" >> ~/.gitignore
+git config --global user.name "Anas Khan"
+git config --global user.email "anas.khan96@outlook.com"
 
 echo "= = = gcc = = ="
 brew install gcc
