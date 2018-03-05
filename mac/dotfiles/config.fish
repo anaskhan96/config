@@ -14,6 +14,10 @@ function wifi
 	networksetup -setairportnetwork en1 $argv
 end
 
+function wifoff
+	networksetup -setairportpower en1 off
+end
+
 function bluon
 	blueutil -p 1
 	echo "Bluetooth switched on"
