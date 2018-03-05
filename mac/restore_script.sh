@@ -28,6 +28,7 @@ brew install fish
 # Setting up fish
 cp dotfiles/config.fish ~/.config/fish/
 curl -L https://get.oh-my.fish | fish
+echo "Setting fish as default shell"
 sudo bash -c "echo /usr/local/bin/fish >> /etc/shells"
 chsh -s /usr/local/bin/fish
 
@@ -103,6 +104,6 @@ echo "= = = etcher = = ="
 brew cask install etcher
 
 echo "Stuff left to do :- "
-echo "1. Set iTerm as default terminal"
+echo "1. Set iTerm2 as default terminal"
 echo "2. Change to Dark OS X mode"
 echo "DONE"
