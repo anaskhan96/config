@@ -27,6 +27,7 @@ brew install fish
 
 # Setting up fish
 cp dotfiles/config.fish ~/.config/fish/
+curl -L https://get.oh-my.fish | fish
 
 echo "= = = git = = ="
 brew install git
