@@ -53,7 +53,7 @@ echo "= = = neovim = = ="
 brew install neovim
 
 # Setting up neovim
-cp dotfiles/.vimrc ~/
+cp dotfiles/.vimrc ~/.config/nvim/init.vim
 
 echo "= = = node = = ="
 brew install node
