@@ -105,6 +105,19 @@ brew cask install impactor
 echo "= = = etcher = = ="
 brew cask install etcher
 
+# Set up tiling window manager
+brew tap crisidev/homebrew-chunkwm
+echo "= = = chunkwm = = ="
+brew install --HEAD --with-tmp-logging chunkwm
+echo "= = = skhd = = ="
+brew install --HEAD --with-logging koekeishiya/formulae/skhd
+# Copying the rc files
+cp dotfiles/.chunkwmrc ~/
+cp dotfiles/.skhdrc ~/
+# Starting the services
+brew services start chunkwm
+brew services start skhd
+
 echo "Stuff left to do :- "
 echo "1. Set iTerm2 as default terminal"
 echo "2. Change to Dark OS X mode"
