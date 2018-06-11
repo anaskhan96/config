@@ -104,6 +104,8 @@ echo "= = = impactor = = ="
 brew cask install impactor
 echo "= = = etcher = = ="
 brew cask install etcher
+echo "= = = keybase = = ="
+brew cask install keybase
 
 # Set up tiling window manager
 brew tap crisidev/homebrew-chunkwm
