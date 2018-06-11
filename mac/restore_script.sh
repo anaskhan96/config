@@ -77,6 +77,8 @@ echo "= = = emacs = = ="
 brew install emacs
 echo "= = = blueutil = = ="
 brew install blueutil
+echo "= = = mit-scheme = = ="
+brew install mit-scheme
 
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
