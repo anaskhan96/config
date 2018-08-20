@@ -73,8 +73,6 @@ echo "= = = speedtest-cli = = ="
 brew install speedtest-cli
 echo "= = = zookeeper = = ="
 brew install zookeeper
-echo "= = = blueutil = = ="
-brew install blueutil
 
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
