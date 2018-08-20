@@ -73,6 +73,8 @@ echo "= = = speedtest-cli = = ="
 brew install speedtest-cli
 echo "= = = zookeeper = = ="
 brew install zookeeper
+echo "= = = nginx = = ="
+brew install nginx
 
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
