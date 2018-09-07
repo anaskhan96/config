@@ -22,16 +22,6 @@ function wifoff
 	networksetup -setairportpower en1 off
 end
 
-function bluon
-	blueutil -p 1
-	echo "Bluetooth switched on"
-end
-
-function bluoff
-	blueutil -p 0
-	echo "Bluetooth switched off"
-end
-
 function sshon
 	sudo systemsetup -setremotelogin on
 	echo "ssh on for user $USER"
