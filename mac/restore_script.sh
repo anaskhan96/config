@@ -96,8 +96,6 @@ echo "= = = wireshark = = ="
 brew cask install wireshark
 echo "= = = iterm2 = = ="
 brew cask install iterm2
-echo "= = = spotify = = ="
-brew cask install spotify
 echo "= = = qbittorrent = = ="
 brew cask install qbittorrent
 echo "= = = impactor = = ="
