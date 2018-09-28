@@ -3,6 +3,7 @@ fish_vi_key_bindings
 alias gs="git stage ."
 alias gc="git commit -m"
 alias push="git push origin master"
+alias commitC="git rev-list --count --all"
 alias pull="git pull --rebase"
 alias v="nvim"
 export GOPATH="/Users/$USER/go"
