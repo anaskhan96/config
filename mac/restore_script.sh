@@ -106,5 +106,4 @@ brew services start skhd
 
 echo "Stuff left to do :- "
 echo "1. Set iTerm2 as default terminal"
-echo "2. Change to Dark OS X mode"
 echo "DONE"
