@@ -77,8 +77,6 @@ brew install noti
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
 brew cask install java
-echo "= = = osxfuse = = ="
-brew cask install osxfuse
 echo "= = = sublime-text = = ="
 brew cask install sublime-text
 
@@ -94,8 +92,6 @@ echo "= = = iterm2 = = ="
 brew cask install iterm2
 echo "= = = qbittorrent = = ="
 brew cask install qbittorrent
-echo "= = = impactor = = ="
-brew cask install impactor
 echo "= = = etcher = = ="
 brew cask install etcher
 echo "= = = keybase = = ="
