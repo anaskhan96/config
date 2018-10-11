@@ -20,8 +20,6 @@ if [[ $ans =~ ^[Yy]$ ]]; then
 fi
 
 echo "Installing the following packages (non-cask) :-"
-echo "= = = wget = = ="
-brew install wget
 echo "= = = fish = = ="
 brew install fish
 
@@ -69,8 +67,6 @@ brew install rust
 # Setting up rust
 echo "export PATH=/Users/$USER/.cargo/bin:$PATH" >> ~/.bash_profile
 
-echo "= = = speedtest-cli = = ="
-brew install speedtest-cli
 echo "= = = zookeeper = = ="
 brew install zookeeper
 echo "= = = nginx = = ="
