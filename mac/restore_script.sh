@@ -86,6 +86,10 @@ echo "= = = iterm2 = = ="
 brew cask install iterm2
 echo "= = = qbittorrent = = ="
 brew cask install qbittorrent
+echo "= = = postman = = ="
+brew cask install postman
+echo "= = = libreoffice = = ="
+brew cask install libreoffice
 
 # Set up tiling window manager
 brew tap crisidev/homebrew-chunkwm
