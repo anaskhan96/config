@@ -92,10 +92,6 @@ echo "= = = iterm2 = = ="
 brew cask install iterm2
 echo "= = = qbittorrent = = ="
 brew cask install qbittorrent
-echo "= = = etcher = = ="
-brew cask install etcher
-echo "= = = keybase = = ="
-brew cask install keybase
 
 # Set up tiling window manager
 brew tap crisidev/homebrew-chunkwm
