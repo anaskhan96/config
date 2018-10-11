@@ -61,12 +61,6 @@ cp dotfiles/.vimrc ~/.config/nvim/init.vim
 
 echo "= = = node = = ="
 brew install node
-echo "= = = rust = = ="
-brew install rust
-
-# Setting up rust
-echo "export PATH=/Users/$USER/.cargo/bin:$PATH" >> ~/.bash_profile
-
 echo "= = = zookeeper = = ="
 brew install zookeeper
 echo "= = = nginx = = ="
