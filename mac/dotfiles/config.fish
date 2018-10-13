@@ -32,3 +32,11 @@ function sshoff
 	sudo systemsetup -setremotelogin off
 	echo "ssh off for user $USER"
 end
+
+function sudo
+    if test "$argv" = !!
+        eval command sudo $history[1]
+    else
+        command sudo $argv
+    end
+end
