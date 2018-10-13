@@ -10,7 +10,7 @@ export GOPATH="/Users/$USER/go"
 export GOBIN="/Users/$USER/go/bin"
 set PATH $GOBIN $PATH
 
-function ip
+function showip
 	ifconfig | grep "inet.*broadcast"
 end
 
