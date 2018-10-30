@@ -90,6 +90,8 @@ echo "= = = postman = = ="
 brew cask install postman
 echo "= = = libreoffice = = ="
 brew cask install libreoffice
+echo "= = = opera = = ="
+brew cask install opera
 
 # Set up tiling window manager
 brew tap crisidev/homebrew-chunkwm
