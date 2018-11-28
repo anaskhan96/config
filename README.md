@@ -4,4 +4,8 @@ Storage of personal config (both Linux and Mac systems) and dotfiles to be resto
 
 ### macOS
 
-`chunkwm`, a tiling window manager is being used with `skhd` for providing key bindings. `fish` is the default shell with `neovim` as the main editor.
++ Window manager - `chunkwm` with `skhd` for key bindings (config in `mac/dotfiles`).
++ Terminal - `iTerm` with solarized dark mode.
++ Shell - `fish` with vim key bindings (config in `mac/dotfiles`).
++ Editors - `Sublime Text` as the primary editor (config in `mac/SublimeText`) and `neovim` as a secondary one.
++ Browser - `Opera`.
