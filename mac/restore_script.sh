@@ -63,7 +63,7 @@ echo "= = = zookeeper = = ="
 brew install zookeeper
 echo "= = = nginx = = ="
 brew install nginx
-ehco "= = = noti = = ="
+echo "= = = noti = = ="
 brew install noti
 
 echo "Installing the following packages (cask-specific) :-"
