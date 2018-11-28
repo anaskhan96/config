@@ -3,8 +3,6 @@
 # Miscellaneous stuff
 echo "export LC_ALL=en_US.UTF-8" >> ~/.bash_profile
 echo "export LANG=en_US.UTF-8" >> ~/.bash_profile
-# Restoring Safari Extensions
-cp -r Safari/Extensions ~/Library/Safari/
 
 # Installing Homebrew and packages - the most important step
 printf "Proceed to install Homebrew? "
