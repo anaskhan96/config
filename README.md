@@ -9,3 +9,7 @@ Storage of personal config (both Linux and Mac systems) and dotfiles to be resto
 + Shell - `fish` with vim key bindings (config in `mac/dotfiles`).
 + Editors - `Sublime Text` as the primary editor (config in `mac/SublimeText`) and `neovim` as a secondary one.
 + Browser - `Opera`.
+
+### Linux
+
+`//TODO`
