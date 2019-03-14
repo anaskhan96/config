@@ -88,8 +88,6 @@ echo "= = = opera = = ="
 brew cask install opera
 echo "= = = spotify = = ="
 brew cask install spotify
-echo "= = = mongodb-compass = = ="
-brew cask install mongodb-compass
 
 # Set up tiling window manager
 brew tap crisidev/homebrew-chunkwm
