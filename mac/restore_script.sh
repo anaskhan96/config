@@ -69,6 +69,10 @@ brew install noti
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
 brew cask install java
+echo "= = = vscode = = ="
+brew cask install visual-studio-code
+
+# Setting up VSCode
 
 echo "= = = vlc = = ="
 brew cask install vlc
@@ -80,10 +84,12 @@ echo "= = = qbittorrent = = ="
 brew cask install qbittorrent
 echo "= = = postman = = ="
 brew cask install postman
-echo "= = = libreoffice = = ="
-brew cask install libreoffice
 echo "= = = opera = = ="
 brew cask install opera
+echo "= = = spotify = = ="
+brew cask install spotify
+echo "= = = mongodb-compass = = ="
+brew cask install mongodb-compass
 
 # Set up tiling window manager
 brew tap crisidev/homebrew-chunkwm
