@@ -69,12 +69,6 @@ brew install noti
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
 brew cask install java
-echo "= = = sublime-text = = ="
-brew cask install sublime-text
-
-# Setting up sublime text (hopefully this works)
-cp SublimeText/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-# Restart Sublime Text and install Package Control first
 
 echo "= = = vlc = = ="
 brew cask install vlc
