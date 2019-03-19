@@ -59,8 +59,6 @@ cp dotfiles/.vimrc ~/.config/nvim/init.vim
 
 echo "= = = node = = ="
 brew install node
-echo "= = = zookeeper = = ="
-brew install zookeeper
 echo "= = = nginx = = ="
 brew install nginx
 echo "= = = noti = = ="
