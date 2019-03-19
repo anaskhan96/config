@@ -72,8 +72,6 @@ brew cask install java
 echo "= = = vscode = = ="
 brew cask install visual-studio-code
 
-# Setting up VSCode
-
 echo "= = = vlc = = ="
 brew cask install vlc
 echo "= = = wireshark = = ="
