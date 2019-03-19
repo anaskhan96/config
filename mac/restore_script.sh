@@ -90,11 +90,11 @@ echo "= = = spotify = = ="
 brew cask install spotify
 
 # Set up tiling window manager
-brew tap crisidev/homebrew-chunkwm
+brew tap koekeishiya/formulae
 echo "= = = chunkwm = = ="
-brew install --HEAD --with-tmp-logging chunkwm
+brew install chunkwm
 echo "= = = skhd = = ="
-brew install --HEAD --with-logging koekeishiya/formulae/skhd
+brew install skhd
 # Copying the rc files
 cp dotfiles/.chunkwmrc ~/
 cp dotfiles/.skhdrc ~/
