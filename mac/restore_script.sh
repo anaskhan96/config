@@ -61,8 +61,8 @@ echo "= = = node = = ="
 brew install node
 echo "= = = nginx = = ="
 brew install nginx
-echo "= = = noti = = ="
-brew install noti
+echo "= = = lazygit = = ="
+brew install lazygit
 
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
