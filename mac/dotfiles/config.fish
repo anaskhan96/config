@@ -28,7 +28,9 @@ end
 
 alias gs="git stage ."
 alias gc="git commit -m"
-alias push="git push origin master"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias push="git push origin (git branch | grep \* | cut -d ' ' -f2)"
 alias commitC="git rev-list --count --all"
 alias pull="git pull --rebase"
 alias lg="lazygit"
