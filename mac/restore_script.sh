@@ -63,6 +63,8 @@ echo "= = = nginx = = ="
 brew install nginx
 echo "= = = lazygit = = ="
 brew install lazygit
+echo "= = = thefuck = = ="
+brew install thefuck
 
 echo "Installing the following packages (cask-specific) :-"
 echo "= = = java = = ="
@@ -80,8 +82,8 @@ echo "= = = qbittorrent = = ="
 brew cask install qbittorrent
 echo "= = = postman = = ="
 brew cask install postman
-echo "= = = opera = = ="
-brew cask install opera
+echo "= = = brave = = ="
+brew cask install brave-browser
 echo "= = = spotify = = ="
 brew cask install spotify
 

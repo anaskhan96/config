@@ -1,4 +1,4 @@
-fish_vi_key_bindings
+fish_default_key_bindings
 
 # Fish shell
 
@@ -33,6 +33,7 @@ alias gcob="git checkout -b"
 alias push="git push origin (git branch | grep \* | cut -d ' ' -f2)"
 alias commitC="git rev-list --count --all"
 alias pull="git pull --rebase"
+alias clone="git clone"
 alias lg="lazygit"
 alias v="vim"
 export GOPATH="/Users/$USER/go"
@@ -69,3 +70,5 @@ function sudo
         command sudo $argv
     end
 end
+
+thefuck --alias | source
